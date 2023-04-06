@@ -26,7 +26,7 @@ for (int i = 0; i < x; i++)
     {
         for (int k = 0; k < z; k++)
         {
-            array[i, j, k] = random.Next(1, 30);
+            array[i, j, k] = random.Next(10, 100);
         }
     }
 }
